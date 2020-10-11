@@ -1,0 +1,115 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{chapterbib}
+\usepackage[sectionbib]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usepackage{biblatex}
+%\addbibresource{projects.bib}
+
+\title{\vspace{-4cm} Proximity of sQTLs and target genes in $3$D Genome}
+\author{} %Emre Sefer}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+ Single nucleotide polymorphisms (SNPs) are the most frequent genetic
+ variants in humans and represent an invaluable resource to understand
+ the genetic basis of diseases~\cite{shastry2009}. Genome-wide
+ association studies (GWAS) have found abundant SNPs associated with
+ various traits and diseases, but most of risk loci lack clear
+ molecular mechanisms~\cite{chang2018}. Expression quantitative trait
+ locus (eQTL) studies have been employed to identify SNPs that may influence
+ the expression levels of genes, thereby contributing to the phenotype
+ outcome~\cite{guo2017,danyi2018,gong2017}. However, only a moderate proportion of GWAS-identified
+ loci are strong eQTLs~\cite{}, which might be partly due to the small
+ sample sizes, the tissues studied, and a focus on overall gene level
+ expression measurements without consideration of transcript isoforms~\cite{}.
+
+Alternative splicing (AS) is a widespread process that increases
+structural transcript variation and proteome diversity. The invention of RNA sequencing greatly facilitated
+the identification of AS at the genomic level~\cite{hyung2017}. Aberrant splicing patterns are frequently observed in cancer initiation,
+progress, prognosis and therapy. Increasing evidence has demonstrated
+that AS events could undergo modulation by genetic variants. The
+identification of splicing quantitative trait loci (sQTLs), genetic
+variants that affect AS events, might represent an important step
+toward fully understanding the contribution of genetic variants in
+disease development. AS process is often altered in cancer cells to
+produce aberrant proteins that drive the progression of cancer. A
+better understanding of the misregulation of alternative splicing will
+shed light on the development of novel targets for pharmacological
+interventions of cancer.
+
+Genome-wide sQTL mapping has been achieved for multiple species
+ranging from human to Arabidopsis Thaliana~\cite{khokhar2019}.
+
+%Characterizing the potential functional roles of SNPs that control transcript isoforms
+%in human cancer
+
+\subsection{Related Work}
+
+Joint analyses of multi-tissue Hi-C and eQTL data demonstrate close spatial proximity
+between eQTLs and their target genes by~\cite{yu2019} and~\cite{duggal2013} discuss work similar to ours. 
+
+\section{Experiments and Datasets}
+
+We obtain sQTLs for cancer cells from CancerSplicingQTL database~\cite{tian2018}~\url{http://www.cancersplicingqtl-hust.com/#/sqtls}, which
+compiles genome-wide sQTL data from publications~\cite{}. We intersect gene names in this
+database with gene names or IDs in the Ensembl
+database~\cite{yates2019} and select genes that are associated with a
+unique range in the Ensembl database to produce a collection $S$ of sQTLs.
+
+\begin{itemize}
+\item Prostate cancer: A high-resolution 3D epigenomic map reveals insights into the creation
+of the prostate cancer transcriptome. \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118629}
+In this paper, normal prostate (RWPE1) and prostate cancer cells (C42B
+and 22Rv1). sQTL is in CancerSplicingQTL database under PRAD~(Prostate Adenocarcinoma)~\cite{tian2018}.
+\vspace{0.1cm}
+\item LAML~(Acute Myeloid Leukemia): is of K562 cell type. Hi-C data for K562 cell is obtained in~\cite{rao2014}, sQTL is in CancerSplicingQTL database~\cite{tian2018}.
+\vspace{0.1cm}
+\item CML~(Chronic Myeloid Leukemia): is of KBM7 cell type. Hi-C data
+  for K562 cell is obtained in~\cite{rao2014}, sQTL is in
+  CancerSplicingQTL database~\cite{tian2018} ??.
+\vspace{0.1cm}
+\item Multiple Myeloma (MM): $3$D genome of multiple myeloma reveals
+  spatial genome disorganization associated with copy number
+  variations. Could not find sQTL database.
+\vspace{0.1cm}
+\item Breast Cancer~(BRCA): \textit{Information will be added!}
+\vspace{0.1cm}
+\item Glioblastoma~(GBM): \textit{Information will be added!}
+\vspace{0.1cm}
+\item Dorsolateral Prefrontal Cortex~(DLPFC): sQTL is available in
+  Supplementary files of Genome-wide identification of splicing QTLs
+  in the human brain and their enrichment among
+  schizophrenia-associated loci paper~\cite{takata2017}
+\vspace{0.1cm}
+\item Hippocampus: \textit{Information will be added!}
+\vspace{0.1cm}
+\item Some drugs also target $3$D genome organization as
+in~\cite{kantidze2019} on HT1080
+cells~(fibrosarcoma(SARC)). https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3304262. Cool extension
+files are interaction matrices. sQTLs are available under xxx in
+CancerSplicingQTL
+\end{itemize}
+
+\begin{itemize}
+\item Does sQTLs appear more frequently in TAD boundaries?
+\vspace{0.1cm}
+\item Median survival-QTL
+\end{itemize}
+
+
+%\inputencoding{latin2}
+\bibliographystyle{plain}
+\bibliography{qtl}
+%\inputencoding{utf8}
+
+\end{document}
