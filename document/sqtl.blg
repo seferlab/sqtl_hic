@@ -3,46 +3,58 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: sqtl.aux
 The style file: plain.bst
 Database file #1: qtl.bib
+Repeated entry---line 404 of file qtl.bib
+ : @article{shastry2009
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 416 of file qtl.bib
+ : @article{chang2018
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 464 of file qtl.bib
+ : @article{hyung2017
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-You've used 14 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            588 strings with 9438 characters,
-and the built_in function-call counts, 9519 in all, are:
-= -- 759
-> -- 1021
+            672 strings with 15350 characters,
+and the built_in function-call counts, 20151 in all, are:
+= -- 1616
+> -- 2173
 < -- 0
-+ -- 410
-- -- 392
-* -- 1008
-:= -- 1753
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 238
++ -- 871
+- -- 836
+* -- 2159
+:= -- 3683
+add.period$ -- 84
+call.type$ -- 28
+change.case$ -- 502
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 152
-empty$ -- 345
-format.name$ -- 392
-if$ -- 1724
+cite$ -- 28
+duplicate$ -- 306
+empty$ -- 724
+format.name$ -- 836
+if$ -- 3649
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 14
-newline$ -- 73
-num.names$ -- 28
-pop$ -- 210
+int.to.str$ -- 28
+missing$ -- 28
+newline$ -- 143
+num.names$ -- 56
+pop$ -- 446
 preamble$ -- 1
-purify$ -- 224
+purify$ -- 474
 quote$ -- 0
-skip$ -- 99
+skip$ -- 199
 stack$ -- 0
-substring$ -- 309
-swap$ -- 14
+substring$ -- 712
+swap$ -- 28
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 112
 warning$ -- 0
-while$ -- 41
-width$ -- 16
-write$ -- 156
-(There was 1 warning)
+while$ -- 89
+width$ -- 30
+write$ -- 310
+(There were 3 error messages)

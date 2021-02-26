@@ -1,5 +1,25 @@
 \begin{thebibliography}{10}
 
+\bibitem{barbosa2012}
+Nuno Barbosa-Morais, Manuel Irimia, Qun Pan, Hui Xiong, Serge Gueroussov, Leo
+  Lee, Valentina Slobodeniuc, Claudia Kutter, Stephen Watt, Recep Colak,
+  Taehyung Kim, Christine Misquitta, Michael Wilson, Philip Kim, Duncan Odom,
+  Brendan Frey, and Benjamin Blencowe.
+\newblock The evolutionary landscape of alternative splicing in vertebrate
+  species.
+\newblock {\em Science (New York, N.Y.)}, 338:1587--93, 12 2012.
+
+\bibitem{buniello2018}
+Annalisa Buniello, Jacqueline~A L MacArthur, Maria Cerezo, Laura~W Harris,
+  James Hayhurst, Cinzia Malangone, Aoife McMahon, Joannella Morales, Edward
+  Mountjoy, Elliot Sollis, Daniel Suveges, Olga Vrousgou, Patricia~L Whetzel,
+  Ridwan Amode, Jose~A Guillen, Harpreet~S Riat, Stephen~J Trevanion, Peggy
+  Hall, Heather Junkins, Paul Flicek, Tony Burdett, Lucia~A Hindorff, Fiona
+  Cunningham, and Helen Parkinson.
+\newblock {The NHGRI-EBI GWAS Catalog of published genome-wide association
+  studies, targeted arrays and summary statistics 2019}.
+\newblock {\em Nucleic Acids Research}, 47(D1):D1005--D1012, 11 2018.
+
 \bibitem{chang2018}
 Jiang Chang, Jianbo Tian, Yang Yang, Rong Zhong, Jiaoyuan Li, Kan Zhai, Juntao
   Ke, Jiao Lou, Wei Chen, Beibei Zhu, Na~Shen, Yi~Zhang, Yajie Gong, Ying Zhu,
@@ -9,15 +29,14 @@ Jiang Chang, Jianbo Tian, Yang Yang, Rong Zhong, Jiaoyuan Li, Kan Zhai, Juntao
   enhancer.
 \newblock {\em Cancer Research}, 78(17):5164--5172, 2018.
 
-\bibitem{danyi2018}
-Zou Danyi, Jiao Lou, Juntao Ke, Shufang Mei, Jiaoyuan Li, Yajie Gong, Yang
-  Yang, Ying Zhu, Jianbo Tian, Jiang Chang, Rong Zhong, Jing Gong, and Xiaoping
-  Miao.
-\newblock Integrative expression quantitative trait locus-based analysis of
-  colorectal cancer identified a functional polymorphism regulating slc22a5
-  expression.
-\newblock {\em European journal of cancer (Oxford, England : 1990)}, 93:1--9,
-  02 2018.
+\bibitem{djebali2012}
+Sarah Djebali, Carrie Davis, Angelika Merkel, Alexander Dobin, Timo Lassmann,
+  Ali Mortazavi, Andrea Tanzer, Julien Lagarde, Wei Lin, Felix Schlesinger,
+  Chenghai Xue, Georgi Marinov, Jainab Khatun, Brian Williams, Chris Zaleski,
+  Joel Rozowsky, Maik Röder, Felix Kokocinski, Rehab Abdelhamid, and Thomas
+  Gingeras.
+\newblock Landscape of transcription in human cells.
+\newblock {\em Nature}, 489:101--8, 09 2012.
 
 \bibitem{duggal2013}
 Geet Duggal, Hao Wang, and Carl Kingsford.
@@ -25,22 +44,48 @@ Geet Duggal, Hao Wang, and Carl Kingsford.
   far-away genes}.
 \newblock {\em Nucleic Acids Research}, 42(1):87--96, 10 2013.
 
-\bibitem{gong2017}
-Jing Gong, J~Tian, J~Lou, X~Wang, J~Ke, J~Li, Y~Yang, Y~Gong, Y~Zhu, D~Zou,
-  X~Peng, N~Yang, S~Mei, R~Zhong, Jiang Chang, and X~Miao.
-\newblock A polymorphic myc response element in kbtbd11 influences colorectal
-  cancer risk, especially in interaction with a myc regulated snp rs6983267.
-\newblock {\em Annals of oncology : official journal of the European Society
-  for Medical Oncology}, 29, 12 2017.
+\bibitem{hoyos2019}
+Luisa Escobar-Hoyos, Katherine Knorr, and Omar Abdel-Wahab.
+\newblock Aberrant rna splicing in cancer.
+\newblock {\em Annual Review of Cancer Biology}, 3(1):167--185, 2019.
 
-\bibitem{guo2017}
-Xingyi Guo, Weiqiang Lin, Qiuyin Cai, Jiajun Shi, Yaqiong Sun, Xiao Pan,
-  Mi-Ryung Han, Wanqing Wen, Bingshan Li, Jirong Long, Jianghua Chen, and Wei
-  Zheng.
-\newblock Abstract 1441: A comprehensive cis-eqtl analysis revealed target
-  genes in breast cancer susceptibility loci identified in genome-wide
-  association studies.
-\newblock {\em Cancer Research}, 77:1441--1441, 07 2017.
+\bibitem{faustino2003}
+Nuno~André Faustino and Thomas~A. Cooper.
+\newblock Pre-mrna splicing and human disease.
+\newblock {\em Genes & Development}, 17(4):419--437, 2003.
+
+\bibitem{gong2018}
+J.~Gong, J.~Tian, J.~Lou, X.~Wang, J.~Ke, J.~Li, Y.~Yang, Y.~Gong, Y.~Zhu,
+  D.~Zou, X.~Peng, N.~Yang, S.~Mei, R.~Zhong, J.~Chang, and X.~Miao.
+\newblock A polymorphic <em>myc</em> response element in <em>kbtbd11</em>
+  influences colorectal cancer risk, especially in interaction with an
+  <em>myc</em>-regulated snp rs6983267.
+\newblock {\em Annals of Oncology}, 29(3):632--639, 2020/12/17 2018.
+
+\bibitem{guo2018}
+Xingyi Guo, Weiqiang Lin, Jiandong Bao, Qiuyin Cai, Xiao Pan, Mengqiu Bai, Yuan
+  Yuan, Jiajun Shi, Yaqiong Sun, Mi-Ryung Han, Jing Wang, Qi~Liu, Wanqing Wen,
+  Bingshan Li, Jirong Long, Jianghua Chen, and Wei Zheng.
+\newblock A comprehensive <em>cis</em>-eqtl analysis revealed target genes in
+  breast cancer susceptibility loci identified in genome-wide association
+  studies.
+\newblock {\em The American Journal of Human Genetics}, 102(5):890--903,
+  2020/12/17 2018.
+
+\bibitem{harrow2012}
+Jennifer Harrow, Adam Frankish, Jose~M. Gonzalez, Electra Tapanari, Mark
+  Diekhans, Felix Kokocinski, Bronwen~L. Aken, Daniel Barrell, Amonida Zadissa,
+  Stephen Searle, If~Barnes, Alexandra Bignell, Veronika Boychenko, Toby Hunt,
+  Mike Kay, Gaurab Mukherjee, Jeena Rajan, Gloria Despacio-Reyes, Gary
+  Saunders, Charles Steward, Rachel Harte, Michael Lin, Cédric Howald, Andrea
+  Tanzer, Thomas Derrien, Jacqueline Chrast, Nathalie Walters, Suganthi
+  Balasubramanian, Baikang Pei, Michael Tress, Jose~Manuel Rodriguez, Iakes
+  Ezkurdia, Jeltje van Baren, Michael Brent, David Haussler, Manolis Kellis,
+  Alfonso Valencia, Alexandre Reymond, Mark Gerstein, Roderic Guigó, and
+  Tim~J. Hubbard.
+\newblock Gencode: The reference human genome annotation for the encode
+  project.
+\newblock {\em Genome Research}, 22(9):1760--1774, 2012.
 
 \bibitem{hyung2017}
 Daejin Hyung, Jihyun Kim, Soo~Young Cho, and Charny Park.
@@ -62,6 +107,13 @@ Waqas Khokhar, Musa~A. Hassan, Anireddy S.~N. Reddy, Saurabh Chaudhary,
   (sqtls) in diverse ecotypes of arabidopsis thaliana.
 \newblock {\em Frontiers in Plant Science}, 10:1160, 2019.
 
+\bibitem{lalonde2011}
+Emilie Lalonde, Kevin~C.H. Ha, Zibo Wang, Amandine Bemmo, Claudia~L. Kleinman,
+  Tony Kwan, Tomi Pastinen, and Jacek Majewski.
+\newblock Rna sequencing reveals the role of splicing polymorphisms in
+  regulating human gene expression.
+\newblock {\em Genome Research}, 21(4):545--554, 2011.
+
 \bibitem{rao2014}
 S.S.P. Rao, M.H. Huntley, Neva Durand, E.K. Stamenova, Ivan Bochkov, J.T.
   Robinson, A.L. Sanborn, I.~Machol, Arina Omer, E.S. Lander, and E.L. Aiden.
@@ -69,10 +121,23 @@ S.S.P. Rao, M.H. Huntley, Neva Durand, E.K. Stamenova, Ivan Bochkov, J.T.
   principles of chromatin looping.
 \newblock {\em Cell}, 162:687--688, 08 2015.
 
+\bibitem{schmitt2016}
+Anthony D. Schmitt, Ming Hu, Inkyung Jung, Zheng Xu, Yunjiang Qiu,
+  Catherine L. Tan, Yun Li, Shin Lin, Yiing Lin, Cathy L. Barr, and Bing Ren.
+\newblock A compendium of chromatin contact maps reveals spatially active
+  regions in the human genome.
+\newblock {\em Cell Reports}, 17(8):2042 -- 2059, 2016.
+
 \bibitem{shastry2009}
 Barkur~S Shastry.
 \newblock Snps: impact on gene function and phenotype.
 \newblock {\em Methods in molecular biology (Clifton, N.J.)}, 578:3—22, 2009.
+
+\bibitem{sveen2015}
+Anita Sveen, S~Kilpinen, A~Ruusulehto, RA~Lothe, and Rolf Skotheim.
+\newblock Aberrant rna splicing in cancer; expression changes and driver
+  mutations of splicing factor genes.
+\newblock {\em Oncogene}, 35, 08 2015.
 
 \bibitem{takata2017}
 Atsushi Takata, Naomichi Matsumoto, and Tadafumi Kato.
@@ -87,6 +152,43 @@ Jianbo Tian, Zhihua Wang, Shufang Mei, Nan Yang, Yang Yang, Juntao Ke, Ying
 \newblock {CancerSplicingQTL: a database for genome-wide identification of
   splicing QTLs in human cancer}.
 \newblock {\em Nucleic Acids Research}, 47(D1):D909--D916, 10 2018.
+
+\bibitem{wang2018}
+Bi-Dar Wang and Norman Lee.
+\newblock Aberrant rna splicing in cancer and drug resistance.
+\newblock {\em Cancers}, 10:458, 11 2018.
+
+\bibitem{wang2008}
+Eric Wang, Rickard Sandberg, Shujun Luo, Irina Khrebtukova, kkk Mayr, Stephen
+  Kingsmore, Gary Schroth, and Christopher Burge.
+\newblock Alternative isoform regulation in human tissue transcriptomes.
+\newblock {\em Nature}, 456:470--6, 12 2008.
+
+\bibitem{wang2003}
+Lei Wang, Lindsay Duke, Peter~S. Zhang, Ralph~B. Arlinghaus, W.~Fraser Symmans,
+  Aysegul Sahin, Richard Mendez, and Jia~Le Dai.
+\newblock Alternative splicing disrupts a nuclear localization signal in spleen
+  tyrosine kinase that is required for invasion suppression in breast cancer.
+\newblock {\em Cancer Research}, 63(15):4724--4730, 2003.
+
+\bibitem{westra2013}
+Harm-Jan Westra, Marjolein~J Peters, T{\~o}nu Esko, Hanieh Yaghootkar, Claudia
+  Schurmann, Johannes Kettunen, Mark~W Christiansen, Benjamin~P Fairfax,
+  Katharina Schramm, Joseph~E Powell, Alexandra Zhernakova, Daria~V Zhernakova,
+  Jan~H Veldink, Leonard~H Van~den Berg, Juha Karjalainen, Sebo Withoff,
+  Andr{\'e}G Uitterlinden, Albert Hofman, Fernando Rivadeneira, Peter A~C
+  't~Hoen, Eva Reinmaa, Krista Fischer, Mari Nelis, Lili Milani, David Melzer,
+  Luigi Ferrucci, Andrew~B Singleton, Dena~G Hernandez, Michael~A Nalls, Georg
+  Homuth, Matthias Nauck, D{\"o}rte Radke, Uwe V{\"o}lker, Markus Perola,
+  Veikko Salomaa, Jennifer Brody, Astrid Suchy-Dicey, Sina~A Gharib, Daniel~A
+  Enquobahrie, Thomas Lumley, Grant~W Montgomery, Seiko Makino, Holger
+  Prokisch, Christian Herder, Michael Roden, Harald Grallert, Thomas Meitinger,
+  Konstantin Strauch, Yang Li, Ritsert~C Jansen, Peter~M Visscher, Julian~C
+  Knight, Bruce~M Psaty, Samuli Ripatti, Alexander Teumer, Timothy~M Frayling,
+  Andres Metspalu, Joyce B~J van Meurs, and Lude Franke.
+\newblock Systematic identification of trans eqtls as putative drivers of known
+  disease associations.
+\newblock {\em Nature Genetics}, 45(10):1238--1243, 2013.
 
 \bibitem{yates2019}
 Andrew~D Yates, Premanand Achuthan, Wasiu Akanni, James Allen, Jamie Allen,
@@ -114,5 +216,21 @@ Jingting Yu, Ming Hu, and Chun Li.
 \newblock Joint analyses of multi-tissue hi-c and eqtl data demonstrate close
   spatial proximity between eqtls and their target genes.
 \newblock {\em BMC Genetics}, 20, 12 2019.
+
+\bibitem{zhang2015}
+Xiaoling Zhang, Roby Joehanes, Brian~H Chen, Tianxiao Huan, Saixia Ying,
+  Peter~J Munson, Andrew~D Johnson, Daniel Levy, and Christopher~J O'Donnell.
+\newblock Identification of common genetic variants controlling transcript
+  isoform variation in human whole blood.
+\newblock {\em Nature Genetics}, 47(4):345--352, 2015.
+
+\bibitem{zou2018}
+Danyi Zou, Jiao Lou, Juntao Ke, Shufang Mei, Jiaoyuan Li, Yajie Gong, Yang
+  Yang, Ying Zhu, Jianbo Tian, Jiang Chang, Rong Zhong, Jing Gong, and Xiaoping
+  Miao.
+\newblock Integrative expression quantitative trait locus\&{\#}x2013;based
+  analysis of colorectal cancer identified a functional polymorphism regulating
+  <em>slc22a5</em> expression.
+\newblock {\em European Journal of Cancer}, 93:1--9, 2020/12/17 2018.
 
 \end{thebibliography}

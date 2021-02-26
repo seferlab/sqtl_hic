@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  11 OCT 2020 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  26 FEB 2021 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -53,98 +53,109 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 (./sqtl.aux)
 \openout1 = `sqtl.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 19.
+(Font)              <17.28> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-3.
+(Font)              <6> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 44.
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+25.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 63.
-
-Overfull \hbox (7.59177pt too wide) in paragraph at lines 63--68
-\T1/cmr/m/n/10.95 We ob-tain sQTLs for can-cer cells from Can-cer-Splic-ingQTL 
-database [[]] $\T1/cmtt/m/n/10.95 http :
+Overfull \hbox (24.59177pt too wide) in paragraph at lines 125--129
+[]\T1/cmr/m/n/10.95 We ob-tain sQTLs for can-cer cells from Can-cer-Splic-ingQT
+L database [[]] $\T1/cmtt/m/n/10.95 http :
  []
 
 
-Overfull \hbox (6.57132pt too wide) in paragraph at lines 63--68
+Overfull \hbox (6.57132pt too wide) in paragraph at lines 125--129
 \T1/cmtt/m/n/10.95 / / www . cancersplicingqtl-[]hust . com / # / sqtls$\T1/cmr
 /m/n/10.95 , which com-piles genome-wide
  []
 
-[1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (9.11942pt too wide) in paragraph at lines 70--75
+Overfull \hbox (9.11942pt too wide) in paragraph at lines 131--136
 \T1/cmr/m/n/10.95 22Rv1). sQTL is in Can-cer-Splic-ingQTL database un-der PRAD 
 (Prostate
  []
 
 
-Overfull \hbox (6.3224pt too wide) in paragraph at lines 75--77
+Overfull \hbox (11.76634pt too wide) in paragraph at lines 136--138
 \T1/cmr/m/n/10.95 K562 cell is ob-tained in [[]], sQTL is in Can-cer-Splic-ingQ
 TL database [[]].
  []
 
 
-Overfull \hbox (3.29631pt too wide) in paragraph at lines 77--81
+Overfull \hbox (11.76634pt too wide) in paragraph at lines 138--142
 \T1/cmr/m/n/10.95 K562 cell is ob-tained in [[]], sQTL is in Can-cer-Splic-ingQ
-TL database [[]]
+TL database [[]].
  []
 
-
-Overfull \hbox (130.83043pt too wide) in paragraph at lines 96--101
+[3]
+Overfull \hbox (130.83043pt too wide) in paragraph at lines 158--163
 \T1/cmr/m/n/10.95 cells (fi-brosar-coma(SARC)). https://www.ncbi.nlm.nih.gov/ge
 o/query/acc.cgi?acc=GSM3304262.
  []
 
-[2] (./sqtl.bbl [3] [4]) [5] (./sqtl.aux) ) 
+(./sqtl.bbl [4]
+./sqtl.bbl:55: Misplaced alignment tab character &.
+l.55 \newblock {\em Genes &
+                            Development}, 17(4):419--437, 2003.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[5] [6] [7] [8]) [9] (./sqtl.aux) ) 
 Here is how much of TeX's memory you used:
- 1156 strings out of 480608
- 15568 string characters out of 5903630
- 252211 words of memory out of 5000000
- 17088 multiletter control sequences out of 15000+600000
+ 1198 strings out of 480608
+ 16315 string characters out of 5903630
+ 252250 words of memory out of 5000000
+ 17130 multiletter control sequences out of 15000+600000
  542868 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,4n,24p,282b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fo
-nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
-pe1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
-1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
-public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
-ic/cm-super/sfti1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/cm-super/sftt1095.pfb>
-Output written on sqtl.pdf (5 pages, 155037 bytes).
+ 23i,4n,24p,332b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/en
+c/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/
+dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/c
+m-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-
+super/sfrm1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-su
+per/sfti1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-supe
+r/sftt1095.pfb>
+Output written on sqtl.pdf (9 pages, 172545 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

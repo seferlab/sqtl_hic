@@ -9,61 +9,122 @@
 %\usepackage{biblatex}
 %\addbibresource{projects.bib}
 
-\title{\vspace{-4cm} Proximity of sQTLs and target genes in $3$D Genome}
+%\title{\vspace{-4cm} Proximity of sQTLs and target genes in $3$D Genome}
+\title{\vspace{-4cm} Hi-C Reveals The Proximity of sQTLs and Their Target Genes in $3$D Genome of Cancer Cells}
 \author{} %Emre Sefer}
 \date{}
-
+%Joint analyses of multi-tissue Hi-C and eQTL data demonstrate close spatial proximity
+%between eQTLs and their target genes
 
 \begin{document}
 
 \maketitle
 
+\section{Abstract}
+
+
 \section{Introduction}
 
- Single nucleotide polymorphisms (SNPs) are the most frequent genetic
- variants in humans and represent an invaluable resource to understand
- the genetic basis of diseases~\cite{shastry2009}. Genome-wide
- association studies (GWAS) have found abundant SNPs associated with
- various traits and diseases, but most of risk loci lack clear
- molecular mechanisms~\cite{chang2018}. Expression quantitative trait
- locus (eQTL) studies have been employed to identify SNPs that may influence
- the expression levels of genes, thereby contributing to the phenotype
- outcome~\cite{guo2017,danyi2018,gong2017}. However, only a moderate proportion of GWAS-identified
- loci are strong eQTLs~\cite{}, which might be partly due to the small
- sample sizes, the tissues studied, and a focus on overall gene level
- expression measurements without consideration of transcript isoforms~\cite{}.
+% SNP introduction
+Single nucleotide polymorphisms (SNPs) are the most frequent genetic variants in humans and represent a valuable
+resource for investigating the genetic basis of diseases~\cite{shastry2009}. Genome-wide association studies (GWAS) have found
+abundant SNPs associated with various traits and diseases, but most of
+risk loci lack clear molecular mechanisms~\cite{buniello2018, chang2018}.
+Expression quantitative trait locus (eQTL) studies have been employed to identify SNPs that may influence the expression
+levels of genes, thereby contributing to the phenotype outcome~\cite{guo2018,zou2018,gong2018}. However, only a moderate proportion
+of GWAS-identified loci are strong eQTLs~\cite{westra2013}, which might be partly due to the small sample sizes, the tissues studied,
+and a focus on overall gene level expression measurements without consideration of transcript isoforms~\cite{zhang2015}.
 
-Alternative splicing (AS) is a widespread process that increases
-structural transcript variation and proteome diversity. The invention of RNA sequencing greatly facilitated
-the identification of AS at the genomic level~\cite{hyung2017}. Aberrant splicing patterns are frequently observed in cancer initiation,
-progress, prognosis and therapy. Increasing evidence has demonstrated
-that AS events could undergo modulation by genetic variants. The
-identification of splicing quantitative trait loci (sQTLs), genetic
-variants that affect AS events, might represent an important step
-toward fully understanding the contribution of genetic variants in
-disease development. AS process is often altered in cancer cells to
-produce aberrant proteins that drive the progression of cancer. A
-better understanding of the misregulation of alternative splicing will
-shed light on the development of novel targets for pharmacological
-interventions of cancer.
+% alternative splicing
+Alternative splicing (AS) is a molecular mechanism that produces multiple distinct transcript isoforms from a single gene, increasing
+the structural transcript variation and proteome diversity. The number of different transcripts in the human transcriptome vastly
+exceeds the number of protein-coding genes~\cite{djebali2012}. On average, there are seven different transcript variants encoded by each
+protein-coding gene~\cite{harrow2012}. The invention of RNA sequencing
+greatly facilitated the identification of AS at the genomic level~\cite{hyung2017}. In human, alternative
+splicing can occur in more than $90\%$ of genes in a cell type-, condition- or species-specific manner, which is thought to extensively increase the
+number of proteins over the number of genes in a genome~\cite{wang2008, barbosa2012}.
 
-Genome-wide sQTL mapping has been achieved for multiple species
-ranging from human to Arabidopsis Thaliana~\cite{khokhar2019}.
+% alternative splicing
+Increasing evidence has demonstrated that Alternative Splicing~(AS) events could undergo modulation by genetic variants. The
+identification of splicing quantitative trait loci (sQTLs), genetic variants that affect AS events, might represent an important step
+toward fully understanding the contribution of genetic variants in disease development. AS process is often altered in cancer cells to
+produce aberrant proteins that drive the progression of cancer. A better understanding of the misregulation of alternative splicing will
+shed light on the development of novel targets for pharmacological interventions of cancer.
+
+%cancer
+In cancer, aberrant splicing patterns are frequently observed in cancer initiation,
+progress, prognosis and therapy and known to contribute to carcinogenesis, dedifferentiation and
+metastasis~\cite{sveen2015, wang2018}. RNA sequencing have previously
+identified a number of cancer-specific transcript isoforms~\cite{hoyos2019}. For example, an alternatively spliced
+transcript isoform of the gene encoding spleen tyrosine kinase is frequently
+expressed in breast cancer cells but never in matched normal
+tissues~\cite{wang2003}.
+
+In cancer, the splicing process is commonly disrupted, resulting in both functional and non-functional end-products. Cancer-specific splicing events are known to contribute to disease progression; however, the dysregulated splicing patterns found on a genome-wide scale have until recently been less well-studied. 
+
+Available evidence reveals that at least $20\%$ of disease-causing single base-pair mutations~(SNPs) affect
+splicing~\cite{faustino2003}. Common genetic variation that affects splicing
+regulation, referred to as splicing quantitative trait loci~(sQTLs),
+can lead to differences in alternative splicing between individuals,
+consequently influence disease susceptibility and drug response~\cite{lalonde2011}. Thus, the identification of sQTLs, especially in cancer tissues, might represent an important step toward fully understanding the contribution of genetic variants in tumorigenesis and development.
+
+
+
+%SNPs
+Single nucleotide polymorphisms (SNPs) are the most frequent genetic variants in humans and represent an invaluable resource to understand
+the genetic basis of diseases~\cite{shastry2009}. Genome-wide association studies (GWAS) have found abundant SNPs associated with
+various traits, cancers, and diseases, but most of risk loci lack
+clear molecular mechanisms~\cite{chang2018}. Genome-wide sQTL mapping
+has been achieved for multiple species ranging from human to Arabidopsis Thaliana~\cite{khokhar2019}.
+% Expression quantitative trait locus (eQTL) studies have been employed to identify SNPs that may influence
+% the expression levels of genes, thereby contributing to the phenotype
+% outcome~\cite{guo2017,danyi2018,gong2017}. However, only a moderate proportion of GWAS-identified
+% loci are strong eQTLs~\cite{}, which might be partly due to the small
+% sample sizes, the tissues studied, and a focus on overall gene level
+% expression measurements without consideration of transcript isoforms~\cite{}.
+
+%
+Gene regulation and alternative splicing~(AS) are important for cells
+and tissues to function. It has been studied from two independent aspects at
+the genomic level, the identification of splicing quantitative trait loci (sQTLs) and identification of long-range
+chromatin interactions. It is important to understand their relationship, such as whether sQTLs regulate alternative splicing of
+genes through physical chromatin interaction. 
+
+We are interested in understanding whether sQTLs regulate their target
+genes through physical chromatin interactions. Our data will possibly demonstrate the close spatial proximity between sQTLs and their target genes
+among multiple human primary tissues, cancer tissues, and cell lines.
+
+%previous work
+This has been previously shown in eQTLs. Chromatin interactions have been shown to be
+one of the main mechanisms underlying eQTLs both in cell lines and primary tissues.
 
 %Characterizing the potential functional roles of SNPs that control transcript isoforms
 %in human cancer
+
+Although chromatin interactions have been widely believed
+as one of the main mechanisms underlyinge sQTLs, we are unaware of any direct evidence of this for
+tissues. It is well known that sQTLs are tissue specific [3]. Moreover, Schmitt et al. [23] recently identified hotspots
+of local chromatin interactions from Hi-C data, called frequently interacting regions (FIREs). FIREs are
+bins that frequently interact with nearby regions $<200$Kb, and they display strong tissue specificity. It is
+unclear how much overlap exists between tissue-specific
+FIREs and tissue-specific sQTLs.
+
+
 
 \subsection{Related Work}
 
 Joint analyses of multi-tissue Hi-C and eQTL data demonstrate close spatial proximity
 between eQTLs and their target genes by~\cite{yu2019} and~\cite{duggal2013} discuss work similar to ours. 
 
+ASpedia: Alternative Splicing Encyclopedia of Human
+
 \section{Experiments and Datasets}
+
+Are SQTLs occur often near TAD boundaries?
 
 We obtain sQTLs for cancer cells from CancerSplicingQTL database~\cite{tian2018}~\url{http://www.cancersplicingqtl-hust.com/#/sqtls}, which
 compiles genome-wide sQTL data from publications~\cite{}. We intersect gene names in this
-database with gene names or IDs in the Ensembl
-database~\cite{yates2019} and select genes that are associated with a
+database with gene names or IDs in the Ensembl database~\cite{yates2019} and select genes that are associated with a
 unique range in the Ensembl database to produce a collection $S$ of sQTLs.
 
 \begin{itemize}
@@ -76,11 +137,11 @@ and 22Rv1). sQTL is in CancerSplicingQTL database under PRAD~(Prostate Adenocarc
 \vspace{0.1cm}
 \item CML~(Chronic Myeloid Leukemia): is of KBM7 cell type. Hi-C data
   for K562 cell is obtained in~\cite{rao2014}, sQTL is in
-  CancerSplicingQTL database~\cite{tian2018} ??.
+  CancerSplicingQTL database~\cite{tian2018}.
 \vspace{0.1cm}
 \item Multiple Myeloma (MM): $3$D genome of multiple myeloma reveals
   spatial genome disorganization associated with copy number
-  variations. Could not find sQTL database.
+  variations. GEO GSE87585. Could not find sQTL database.
 \vspace{0.1cm}
 \item Breast Cancer~(BRCA): \textit{Information will be added!}
 \vspace{0.1cm}
@@ -89,9 +150,10 @@ and 22Rv1). sQTL is in CancerSplicingQTL database under PRAD~(Prostate Adenocarc
 \item Dorsolateral Prefrontal Cortex~(DLPFC): sQTL is available in
   Supplementary files of Genome-wide identification of splicing QTLs
   in the human brain and their enrichment among
-  schizophrenia-associated loci paper~\cite{takata2017}
-\vspace{0.1cm}
-\item Hippocampus: \textit{Information will be added!}
+  schizophrenia-associated loci paper~\cite{takata2017}. Hi-C data is
+  available in~\cite{schmitt2016}.
+  \vspace{0.1cm}
+\item Hippocampus: Hi-C data is available in A Compendium of Chromatin Contact Maps Reveals Spatially Active Regions in the Human Genome~\cite{schmitt2016}.
 \vspace{0.1cm}
 \item Some drugs also target $3$D genome organization as
 in~\cite{kantidze2019} on HT1080
@@ -100,11 +162,37 @@ files are interaction matrices. sQTLs are available under xxx in
 CancerSplicingQTL
 \end{itemize}
 
+
+Some research questions we are interested in answering:
+
 \begin{itemize}
+\item Relationship between chromatin interaction frequency and number of sQTLs.
+  What about TADs? We implement variety of regression models such as:
+1- Negative binomial regression with covariates xxx and yyy.
+
+  Negative binomial regression is implemented in statsmodels package in
+Python.
+
+Relationships between gene orthologs as well.
+
+Gene Ontology
+
+ \vspace{0.1cm}
 \item Does sQTLs appear more frequently in TAD boundaries?
 \vspace{0.1cm}
-\item Median survival-QTL
+\item How is median-survival time is correlated with xxx?
+\vspace{0.1cm}
+\item How is phenotype impacted?
+\vspace{0.1cm}
+\item How does splicing type impact?
+\vspace{0.1cm}
+\item Cis-trans difference
+\vspace{0.1cm}
+\item ddd
 \end{itemize}
+
+Negative binomial regression is implemented in statsmodels package in
+Python.
 
 
 %\inputencoding{latin2}
